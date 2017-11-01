@@ -13,10 +13,14 @@ python用于程序后台逻辑处理
 > Admin（后台管理）:
 
 用户名：root      密码：root
-
+运行环境：
+1.python2.7
+2.安装django1.10
+3.'rest_framework',
+  'rest_framework_swagger',
+  两个模块
 --------------------------
 ## 网站展示：
-__[视频网站（部分内容）](http://oojestrjh.bkt.clouddn.com/movieweb/index.html)__
 
 * __首页:__
 
