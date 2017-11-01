@@ -10,15 +10,14 @@ python用于程序后台逻辑处理
 
 使用django自带的数据库Sqlite3存储网站数据
 
-> Admin（后台管理）:
-
->用户名：root      密码：root
->运行环境： 
+Admin（后台管理）:
+用户名：root 密码：root 
+运行环境：  
 1.python2.7  
 2.安装django1.10   
-3.'rest_framework',  
-  'rest_framework_swagger',  
- 两个模块
+3.rest_framework和rest_framework_swagger两个模块
+4.如果遇到问题，可以联系：www.atguigu.com
+找阿福老师
 --------------------------
 ## 网站展示：
 
