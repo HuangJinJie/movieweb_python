@@ -110,31 +110,31 @@
   </div>
 
   <script>
-  // 获取当前播放视频ID
-  var video_id = {{ video_id }};
-  // 获取已支付电影对象 0：未支付 1： 已支付
-  var movie_pay = {{ movie_payment_obj }};
-  // 获取 DOM 中指定的视频标签
-  var my_video = document.getElementById("my_video");
-  // 监听视频播放位置变化 事件
-  my_video.ontimeupdate = function() {
-    // 返回播放视频当前播放位置/秒
-    var currentTime = my_video.currentTime;
-    // 返回播放视频长度/秒
-    var duration = my_video.duration;
-    document.getElementById("current_time").innerHTML = Math.floor(currentTime);
-    document.getElementById('video_duration').innerHTML = Math.floor(duration);
-    // 当视频ID <= 5 且 未支付 执行
-    if (video_id <= 5 && movie_pay == 0) {
-      if (currentTime >= 10) {
-        // 重新加载视频
-        my_video.load();
-        document.getElementById("current_time").innerHTML = 0;
-        // js动态显示模态框
-        $('#my_modal').modal({show: true})
-      }
-    }
-  }
+{#  // 获取当前播放视频ID#}
+{#  var video_id = {{ video_id }};#}
+{#  // 获取已支付电影对象 0：未支付 1： 已支付#}
+{#  var movie_pay = {{ movie_payment_obj }};#}
+{#  // 获取 DOM 中指定的视频标签#}
+{#  var my_video = document.getElementById("my_video");#}
+{#  // 监听视频播放位置变化 事件#}
+{#  my_video.ontimeupdate = function() {#}
+{#    // 返回播放视频当前播放位置/秒#}
+{#    var currentTime = my_video.currentTime;#}
+{#    // 返回播放视频长度/秒#}
+{#    var duration = my_video.duration;#}
+{#    document.getElementById("current_time").innerHTML = Math.floor(currentTime);#}
+{#    document.getElementById('video_duration').innerHTML = Math.floor(duration);#}
+{#    // 当视频ID <= 5 且 未支付 执行#}
+{#    if (video_id <= 5 && movie_pay == 0) {#}
+{#      if (currentTime >= 10) {#}
+{#        // 重新加载视频#}
+{#        my_video.load();#}
+{#        document.getElementById("current_time").innerHTML = 0;#}
+{#        // js动态显示模态框#}
+{#        $('#my_modal').modal({show: true})#}
+{#      }#}
+{#    }#}
+{#  }#}
 // 微信分享配置
   wx.config({
             debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
