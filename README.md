@@ -15,8 +15,8 @@ Admin（后台管理）:
 运行环境：  
 1.python2.7  
 2.安装django1.10   
-3.rest_framework和rest_framework_swagger两个模块
-4.如果遇到问题，可以联系：www.atguigu.com
+3.rest_framework和rest_framework_swagger两个模块  
+4.如果遇到问题，可以联系：www.atguigu.com 
 找阿福老师
 --------------------------
 ## 网站展示：
